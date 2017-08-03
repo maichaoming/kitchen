@@ -1,0 +1,48 @@
+
+<ion-view>
+   <ion-content>
+      <div ng-class="cookPage" class="cookPage">
+
+      <div class="bar bar-header bar-light">
+         <h1 class="title">厨说</h1>
+         <button class="button button-icon ion-ios-camera"></button>
+      </div>
+
+      <div class="cookTitle" style="margin-top: 43px;">
+        <div class="gChang" ng-click="gChang($event)" ng-checked="checked">广场</div>
+        <div class="gZhu">关注</div>
+     </div>
+
+     <div class="cookContent">
+      <div class="list card" style="margin-top: 2px;">
+       <div class="item item-avatar">
+         <img src="./img/beauty1.jpg" />
+         <h2 style="color: #000056;">傻瓜</h2>
+         <p style="font-size: 12px;">刚刚交了 作业</p>
+         <p style="color: #4141ff;">#香辣蟹#</p>
+         <div><img src="./img/xie.jpg" /></div>
+         <p style="text-align: right;">
+            <i class="iconfont" ng-click="like = like + 1">&#xe60d;</i><span>{{like+22}}</span>
+            <i class="iconfont" ng-click="say = say + 1" ng-init="say=33">&#xe686;</i><span>{{say}}</span>
+         </p>
+       </div>
+      </div>
+      <div class="list card" style="margin-top: 0px;">
+       <div class="item item-avatar">
+         <img src="./img/beauty1.jpg" />
+         <h2 style="color: #000056;">傻瓜</h2>
+         <p style="font-size: 12px;">刚刚交了 作业</p>
+         <p style="color: #4141ff;">#香辣蟹#</p>
+         <div><img src="./img/xie.jpg" /></div>
+         <p style="text-align: right;">
+            <i class="iconfont" ng-click="like1 = like1 + 1">&#xe60d;</i><span>{{like1+66}}</span>
+            <i class="iconfont" ng-click="say1 = say1 + 1" ng-init="say1=59">&#xe686;</i><span>{{say1}}</span>
+         </p>
+       </div>
+      </div>
+     </div>
+
+    </div>
+   </ion-content>
+</ion-view>
+    

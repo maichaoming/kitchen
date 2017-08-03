@@ -1,0 +1,355 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 分隔符 */
+.item-divider{
+	min-height: 0px;
+}
+
+
+
+
+/* lead */
+.box{
+	width: 100vw;
+	height: 100vh;
+}
+.lead1{
+	background: url(../img/lead1.jpg) no-repeat;
+	background-size: 100%;
+}
+.lead2{
+	background: url(../img/lead2.jpg) no-repeat;
+	background-size: 100%;
+}
+.lead3{
+	background: url(../img/lead3.jpg) no-repeat;
+	background-size: 100%;
+}
+.ion-record{
+	display: none;
+}
+/* lead end*/
+
+
+/* homePage */
+.homePage{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.bannerImg img{
+	width: 100%;
+}
+
+.listCol{
+	text-align: center;
+}
+
+.listCol .listImg{
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	line-height: 50px;
+}
+
+.listCol .listImg i{
+	font-size: 26px;
+}
+
+.listCol:nth-child(1) .listImg i{
+	color: #fb5874;
+}
+
+.listCol:nth-child(2) .listImg i{
+	color: purple;
+}
+
+.listCol:nth-child(3) .listImg i{
+	color: skyblue;
+}
+
+.listCol:nth-child(4) .listImg i{
+	color: orange;
+}
+
+.listCol p{
+	color: #333;
+	margin-top: 8px;
+}
+
+/* 达人 */
+.rowMaster .masphoto{
+	margin: 0 auto;
+	width: 46px;
+	height: 46px;
+}
+
+.rowMaster .masphoto img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.rowMaster p{
+	text-align: center;
+	font-size: 13px;
+	color: #333;
+	margin-top: 5px;
+}
+
+/* card */
+.homePage .item-image{
+	height: 220px;
+}
+
+.homePage .item-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.bar-footer{
+	text-align: center;
+}
+
+.bar-footer .tab-item{
+	font-size: 18px;
+	color: #333;
+}
+
+/* homePage end */
+
+
+
+/* shopPage */
+.shopPage{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.shopPage .item{
+	padding: 10px;
+}
+
+.shopImg img{
+	width: 100%;
+}
+
+.shopList{
+	text-align: center;
+}
+
+.shopList .iconfont{
+	font-size: 27px;
+}
+
+.shopList p{
+	font-size: 12px;
+	color: #333;
+	padding-top: 5px;
+}
+
+.shopContent{
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+.shopContent .row{
+	padding: 0 3%;
+	margin-top: 10px;
+}
+
+.shopContent .row .col{
+	background-color: #fff;
+}
+
+.shopContent .row .col:nth-child(1){
+	margin-right: 3%;
+	background-color: #fff;
+}
+
+.shopContent h4{
+	margin-top: 0px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.shopContent .shopListImg{
+	width: 100%;
+	height: 120px;
+}
+
+.shopContent .shopListImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.shopContent .shopListImg ~ del{
+	font-size: 14px;
+	color: #666;
+}
+
+.shopContent .shopListImg ~ p{
+	font-size: 16px;
+	color: orange;
+	margin-top: 5px;
+}
+
+.shopCar{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* shop end*/
+
+
+/* teachPage */
+.teachPage{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.teachPage .item-image{
+	height: 150px;
+}
+
+.teachPage .item-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.teachPage .item-avatar{
+	padding: 20px 16px 0px 72px;
+}
+/* teach end*/
+
+
+
+/* cookPage */
+.cookPage{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.cookTitle{
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	line-height: 40px;
+}
+
+.cookTitle div{
+	float: left;
+	font-size: 17px;
+	margin: 0 19%;
+}
+
+.cookContent{
+	width: 100%;
+	height: 100%;
+	background-color: #fbfbfb;
+}
+
+.cookContent .item-avatar{
+	background-color: #fbfbfb;
+}
+
+.cookContent .item-avatar div{
+	width: 120px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.cookContent .item-avatar div img{
+	width: 100%;
+	height: 100%;
+}
+
+.cookContent .iconfont{
+	font-size: 21px;
+}
+
+/* cook end*/
+
+
+/* minePage */
+.minePage{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.minePage .iconfont{
+	font-size: 23px;
+}
+
+.minePage .mineHead{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+.minePage .mineHead img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.minePage h3{
+	float: left;
+	line-height: 50px;
+	padding-left: 15px;
+}
+
+.minePage button{
+	float: right;
+}
+
+/* mine end */
+
+
+/* shopping car */
+.xsimg{
+	width: 100px;
+	height: 100px;
+}
+
+.xsimg img{
+	width: 100%;
+	height: 100%;
+}
